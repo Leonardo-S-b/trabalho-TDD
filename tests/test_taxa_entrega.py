@@ -11,3 +11,9 @@ def test_taxa_de_sete_reais_para_quatro_km_e_pedido_de_cinquenta():
     taxa = calcular_taxa_entrega(4, 50)
 
     assert taxa == 7
+
+
+def test_entrega_gratis_para_cinco_km_e_pedido_de_cem():
+    taxa = calcular_taxa_entrega(5, 100)
+
+    assert taxa == 0
