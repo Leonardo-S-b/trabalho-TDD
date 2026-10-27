@@ -30,6 +30,9 @@ def calcular_total(itens: list[dict]) -> float:
 
 def calcular_taxa_entrega(distancia_km, total_pedido):
     """Calcula a taxa de entrega do pedido."""
+    if total_pedido >= 100:
+        return 0
+
     if distancia_km > 3:
         return 5 + (distancia_km - 3) * 2
 
