@@ -1,5 +1,25 @@
 # Projeto do aluno - Aula 11
 
+Exercicio compensatorio do Sabado Academico de 24/10/2026.
+
+## Entrega concluida
+
+- Implementacao: `src/pedido.py`, funcao `calcular_taxa_entrega`.
+- Tres testes obrigatorios: `tests/test_taxa_entrega.py`.
+- Quatro testes originais preservados: `tests/test_pedido.py`.
+- Registro das etapas Red, Green e Refactor: `REGISTRO_TDD.md`.
+- Relatorio da execucao: `relatorio-testes.txt`.
+
+Para executar e atualizar o relatorio no PowerShell:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m pytest -v | Tee-Object -FilePath relatorio-testes.txt
+```
+
+Projeto base fornecido pelo professor:
+[aula-11-testes-unitarios-tdd](https://github.com/lucianozanuz/pbl-qualidade-software-2026-2/tree/main/praticas/aula-11-testes-unitarios-tdd).
+
 ## 1. Preparar o ambiente
 
 ```bash
